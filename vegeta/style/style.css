@@ -1,0 +1,102 @@
+/* 全体的なスタイル */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#wrap {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ヘッダー */
+#head {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#head h1 {
+  margin: 0;
+}
+
+/* コンテンツ */
+#content {
+  margin-top: 20px;
+}
+.back-link {
+  margin-bottom: 10px;
+}
+
+.back-link a {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* ログイン、登録ボタン */
+.login-button button,
+.register-button button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button button:hover,
+.register-button button:hover {
+  background-color: #0056b3;
+}
+
+/* 投稿フォーム */
+form dl dt {
+  font-weight: bold;
+}
+
+form dl dd {
+  margin-bottom: 10px;
+}
+
+/* メッセージ表示 */
+.msg {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.msg p {
+  margin: 0;
+}
+
+.msg .name {
+  color: #007bff;
+}
+
+.msg .daytime a {
+  color: #666;
+}
+
+/* ページネーション */
+#pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#pagination a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+#pagination span {
+  color: #000;
+  font-weight: bold;
+}

@@ -1,0 +1,108 @@
+/* 基本スタイル */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  width: 80%; /* レスポンシブデザインに適応 */
+  max-width: 600px; /* 最大幅を設定 */
+  margin: 20px auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#head {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#head h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+#content {
+  padding: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* フォーム要素のスタイル */
+dl {
+  margin-bottom: 20px;
+}
+
+dt {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+dd {
+  margin-left: 0;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.required {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
+
+
+/* リンクのスタイル */
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* メディアクエリ */
+@media (max-width: 600px) {
+  #wrap {
+    width: 100%;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+  }
+}

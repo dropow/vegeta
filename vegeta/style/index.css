@@ -1,0 +1,298 @@
+/* style/vegetable-theme.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cdeccd; /* ページ全体の背景色を野菜の緑に変更 */
+}
+
+#head {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+  background-color: #5cb85c; /* ヘッダーの背景色 */
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 影を追加 */
+}
+
+/* ヘッダー内のリンク */
+.header-links {
+  display: flex;
+  justify-content: center; /* 中央揃え */
+  flex-wrap: wrap; /* 複数行に対応 */
+  gap: 15px; /* リンク間のスペース */
+}
+
+.header-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 5px; /* 角丸 */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-links a:hover {
+  background-color: white; /* ホバー時の背景色 */
+  color: #5cb85c; /* ホバー時のテキスト色 */
+}
+
+/* ログイン・登録ボタン */
+.login-button button,
+.register-button button,
+.logout-button button {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #4cae4c; /* ボタンの背景色 */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.login-button button:hover,
+.register-button button:hover,
+.logout-button button:hover {
+  background-color: #398439; /* ホバー時の背景色 */
+}
+
+#wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#sidebar {
+  max-width: 250px;
+  width: 250px;
+  margin-right: 20px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#sidebar li {
+  margin-bottom: 10px;
+}
+
+#sidebar a {
+  display: block;
+  padding: 10px;
+  background-color: #5cb85c; /* サイドバーのリンクの背景色を変更 */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#sidebar a:hover {
+  background-color: #4cae4c; /* ホバー時の背景色を変更 */
+}
+
+#content {
+  flex-grow: 1;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #5cb85c; /* ボタンの背景色を変更 */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4cae4c; /* ホバー時の背景色を変更 */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.back-link {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="submit"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #5cb85c; /* ボーダー色を変更 */
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #5cb85c; /* 送信ボタンの背景色を変更 */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #4cae4c; /* ホバー時の背景色を変更 */
+}
+
+.msg {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.image {
+  float: left;
+  margin-right: 20px;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.daytime {
+  color: #888;
+  font-size: 12px;
+}
+
+/* いいねセクションのスタイル */
+.like-section {
+  display: flex; /* Flexboxを使って横並びにする */
+  align-items: center; /* アイテムを中央揃えにする */
+  gap: 10px; /* アイテム間のスペースを設定 */
+}
+
+.likes, .like-button {
+  margin: 0; /* デフォルトの余白を削除 */
+  padding: 0; /* デフォルトのパディングを削除 */
+}
+
+.like-button a {
+  display: inline-block; /* リンクをインラインブロック要素にする */
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.like-button a:hover {
+  background-color: #0056b3;
+}
+
+#pagination {
+  margin-top: 20px;
+}
+
+#pagination a,
+#pagination span {
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid #5cb85c; /* ページネーションのボーダー色を変更 */
+  text-decoration: none;
+  color: #5cb85c; /* ページネーションのテキスト色を変更 */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#pagination a:hover {
+  background-color: #4cae4c; /* ホバー時の背景色を変更 */
+  color: white;
+}
+@media (max-width: 768px) {
+  /* スマートフォン向けスタイル */
+  #head {
+      width: 100%; /* ヘッダーの幅を100%に */
+      font-size: 18px; /* フォントサイズを小さく */
+  }
+
+  .header-links a {
+      padding: 8px 10px; /* リンクのパディングを調整 */
+  }
+
+  .login-button button,
+  .register-button button,
+  .logout-button button {
+      font-size: 12px; /* ボタンのフォントサイズを小さく */
+      padding: 8px 15px; /* ボタンのパディングを調整 */
+  }
+
+  #wrap {
+      flex-direction: column; /* コンテナを縦並びに */
+      padding: 10px; /* コンテナのパディングを調整 */
+  }
+
+  #sidebar {
+    width: 100%; /* サイドバーの幅を100%に */
+    margin: 0 auto; /* 上下のマージンを0、左右のマージンを自動に設定 */
+    display: flex; /* Flexboxを使用 */
+    justify-content: center; /* 中央寄せ */
+  }
+  #sidebar ul {
+    width: 100%; /* ul要素の幅を100%に */
+  }
+
+  #sidebar li {
+      text-align: center; /* リスト項目を中央揃えに */
+  }
+  
+  .content {
+    width: 100%; /* 親要素の幅を100%に設定 */
+  }
+  img {
+    max-width: 100%; /* 画像の最大幅を親要素の幅に合わせる */
+    width: 100%; /* 画像の幅を親要素の幅に合わせる */
+    border-radius: 5px; /* 角丸の設定を維持 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影の設定を維持 */
+    height: auto; /* 画像の高さを自動調整してアスペクト比を維持する */
+  }
+  
+  
+  .msg {
+      font-size: 14px; /* メッセージのフォントサイズを調整 */
+  }
+
+  input[type="text"],
+  input[type="submit"],
+  textarea {
+      padding: 8px; /* 入力フィールドのパディングを調整 */
+  }
+
+  .like-section {
+      flex-direction: column; /* いいねセクションを縦並びに */
+  }
+
+  .like-button a {
+      padding: 5px 8px; /* いいねボタンのパディングを調整 */
+      
+  }
+}
