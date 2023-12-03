@@ -88,14 +88,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <dl>
                 <dt>名前<span class="required">必須</span></dt>
                 <dd>
-                    <input type="text" name="name" size="35" maxlength="255" value="<?php echo h($form['name']); ?>"/>
+                    <input type="text" name="name" value="<?php echo h($form['name']); ?>"/>
                     <?php if(isset($error['name']) && $error['name'] === 'blank'): ?>
                     <p class="error">* 名前を入力してください</p>
                     <?php endif; ?>
                 </dd>
                 <dt>メールアドレス<span class="required">必須</span></dt>
                     <dd>
-                    <input type="text" name="email" size="35" maxlength="255" value="<?php echo h($form['email']); ?>"/>
+                    <input type="text" name="email" value="<?php echo h($form['email']); ?>"/>
                     <?php if(isset($error['email']) && $error['email'] === 'blank'): ?>
                     <p class="error">* メールアドレスを入力してください</p>
                     <?php endif; ?>
@@ -106,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <dt>パスワード<span class="required">必須</span></dt>
                 <dd>
                     <!-- パスワードフィールドのvalueを常に空にする -->
-                    <input type="password" name="password" size="10" maxlength="20" value="" />
+                    <input type="password" name="password" value="" />
                     <?php if (isset($error['password']) && $error['password'] === 'blank') : ?>
                     <p class="error">* パスワードを入力してください</p>
                     <?php endif; ?>
