@@ -7,7 +7,7 @@
 掲示板を使用するためのアカウント登録機能.<br>
 名前・メールアドレス・パスワードの項目があり入力が適切でなければエラーがでるように.<br>
 メールアドレスは既に登録済みであればエラーが表示されパスワードも適切な文字数でなければエラーがでるように.<br>
-<img src="./readmeimg/regist_screen.png" style="border-radius:10px;"><img src="./readmeimg/regist_screen_error.png" style="border-radius:10px;">
+<img src="./readmeimg/regist_screen.png" style="border-radius:10px;"><img src="./readmeimg/regist_error.png" style="border-radius:10px;">
 
 
 ### 2.ログイン機能
