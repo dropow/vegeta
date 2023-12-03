@@ -14,10 +14,12 @@
 掲示板を使用するためのログイン機能.<br>
 正しいメールアドレスとパスワードを使用しないとエラーが表示される.<br>
 ログインしていなければ投稿機能・削除機能・いいね機能などの主要な機能が使えない.<br>
+<img src="./readmeimg/login_screen.png" style="border-radius:10px;">
 
 ### 3.検索機能
 投稿されている内容を検索できる機能.<br>
 タイトルと投稿内容を検索して一致しているものがあれば表示できる.<br>
+<img src="./readmeimg/search_screen.png" style="border-radius:10px;">
 
 ### 4.削除機能
 投稿を削除できる機能.<br>
@@ -34,6 +36,7 @@
 ### 7.ページネーション機能
 投稿内容が多くなればページを分割する機能.<br>
 5投稿以上になれば自動的に次のページがつくられ移動することが可能.<br>
+<img src="./readmeimg/page_screen.png" style="border-radius:10px;">
 
 
 
