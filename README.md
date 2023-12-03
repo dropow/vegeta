@@ -1,7 +1,7 @@
 # 野菜掲示板
 このサイトは地域の農家の方や買い手の方が野菜の販売状況を共有できるサイトです<br>
 
-#使用技術　概要
+### 使用技術　概要
 <h3>BE
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=php"/>
