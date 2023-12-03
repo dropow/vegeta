@@ -6,9 +6,9 @@
     <img src="https://skillicons.dev/icons?i=php"/>
   </a>
 <h3>DB
-<a href="https://skillicons.dev">
-<img style="height:48px; border-radius:10px;" src="https://blog.share-wis.com/wp-content/uploads/sites/10/2015/12/NXdGpkmF.png" />
-</a>
+mariadb
+</a><br>
+
 
   
 実家が農家で地元のスーパーや道の駅で野菜を出品するさいに情報が共有しずらいという問題を解決するため<br>
