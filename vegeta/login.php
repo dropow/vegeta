@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <dl>
                 <dt>メールアドレス</dt>
                 <dd>
-                    <input type="text" name="email" size="35" maxlength="255" value="<?php echo h($email); ?>"/>
+                    <input type="text" name="email" value="<?php echo h($email); ?>"/>
                     <?php if (isset($error['login']) && $error['login'] === 'blank'):?>
                     <p class="error">* メールアドレスとパスワードをご記入ください</p>
                     <?php endif; ?>
@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </dd>
                 <dt>パスワード</dt>
                 <dd>
-                    <input type="password" name="password" size="35" maxlength="255" value="<?php echo h($password); ?>"/>
+                    <input type="password" name="password" value="<?php echo h($password); ?>"/>
                 </dd>
             </dl>
             <div>
