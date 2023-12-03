@@ -7,7 +7,7 @@ Webサイト機能
 掲示板を使用するためのアカウント登録機能.<br>
 名前・メールアドレス・パスワードの項目があり入力が適切でなければエラーがでるように.<br>
 メールアドレスは既に登録済みであればエラーが表示されパスワードも適切な文字数でなければエラーがでるように.<br>
-<img src="./readmeimg/regist_screen.png" style="border-radius:10px;"><img src="./readmeimg/regist_error.png" style="border-radius:10px;">
+<img src="./readmeimg/regist_screen.png"><img src="./readmeimg/regist_error.png">
 
 
 ### 2.ログイン機能
@@ -19,7 +19,7 @@ Webサイト機能
 ### 3.検索機能
 投稿されている内容を検索できる機能.<br>
 タイトルと投稿内容を検索して一致しているものがあれば表示できる.<br>
-<img src="./readmeimg/search_screen.png" style="border-radius:10px;">
+<img src="./readmeimg/search_screen.png">
 
 ### 4.削除機能
 投稿を削除できる機能.<br>
@@ -32,12 +32,12 @@ Webサイト機能
 ### 6.いいね機能
 投稿にいいねする機能.<br>
 ログインしているユーザーのみ使用可能で同じフォームには1ユーザー1度のみいいねが使用可能.<br>
-<img src="./readmeimg/view_screen.png" style="border-radius:10px;">
+<img src="./readmeimg/view_screen.png">
 
 ### 7.ページネーション機能
 投稿内容が多くなればページを分割する機能.<br>
 5投稿以上になれば自動的に次のページがつくられ移動することが可能.<br>
-<img src="./readmeimg/page_screen.png" style="border-radius:10px;">
+<img src="./readmeimg/page_screen.png">
 
 
 
