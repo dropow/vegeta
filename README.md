@@ -14,7 +14,7 @@ Webサイト機能
 掲示板を使用するためのログイン機能.<br>
 正しいメールアドレスとパスワードを使用しないとエラーが表示される.<br>
 ログインしていなければ投稿機能・削除機能・いいね機能などの主要な機能が使えない.<br>
-<img src="./readmeimg/login_screen.png" style="border-radius:10px;">
+<img src="./readmeimg/login_screen.png">
 
 ### 3.検索機能
 投稿されている内容を検索できる機能.<br>
