@@ -6,7 +6,7 @@ if (isset($_SESSION['name']) && isset($_SESSION['id'])) {
     $id = $_SESSION['id'];
     $name = $_SESSION['name'];
     $loggedIn = true;
-    // Regenerate session ID to prevent session fixation attacks
+    
     session_regenerate_id(true);
 } else {
     $name = 'ゲスト';
