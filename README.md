@@ -1,6 +1,14 @@
 # 野菜掲示板
 このサイトは地域の農家の方や買い手の方が野菜の販売状況を共有できるサイトです<br>
 
+<h3>BE
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=php"/>
+  </a>
+<h3>DB
+<a href="https://skillicons.dev">
+<img style="height:48px; border-radius:10px;" src="https://blog.share-wis.com/wp-content/uploads/sites/10/2015/12/NXdGpkmF.png" />
+</a>
 実家が農家で地元のスーパーや道の駅で野菜を出品するさいに情報が共有しずらいという問題を解決するため<br>
 作成しました。ログインさえすれば誰でも扱え簡単で使いやすいサイトを目指しました<br>
 セキュリティ面を意識して安心して使えるように力を入れました<br>
